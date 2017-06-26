@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name        = 'spree_adding-colors'
   s.version     = '3.1.5'
   s.summary     = 'Add different product colors'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 2.1.0'
 
   s.author    = 'You'
