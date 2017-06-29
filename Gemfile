@@ -23,6 +23,15 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'spree', '~> 3.1.0.rc1'
+gem 'spree_auth_devise', '~> 3.1.0.rc1'
+gem 'spree_gateway', '~> 3.1.0.rc1'
+
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+
+gem 'spree_simple_sales', path: '../spree_simple_sales'
+gem 'spree_featured_product', path: '../spree_featured_product'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -44,4 +53,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
