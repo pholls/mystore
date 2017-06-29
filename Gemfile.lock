@@ -1,4 +1,20 @@
 GIT
+  remote: git://github.com/pholls/spree_featured_product.git
+  revision: 1f0e16bc007b807f8c98bd694869e441035d30e7
+  branch: master
+  specs:
+    spree_featured_product (3.1.5)
+      spree_core (~> 3.1.5)
+
+GIT
+  remote: git://github.com/pholls/spree_simple_sales.git
+  revision: b35b3208198ad5df49f571894618991ab907ee93
+  branch: master
+  specs:
+    spree_simple_sales (3.1.5)
+      spree_core (~> 3.1.5)
+
+GIT
   remote: git://github.com/spree-contrib/spree_i18n.git
   revision: 31f9011a035106034eaacf94a9e4f936ad4208c1
   branch: master
@@ -9,18 +25,6 @@ GIT
       rails-i18n
       routing-filter
       spree_core (>= 3.1.0, < 4.0)
-
-PATH
-  remote: ../spree_featured_product
-  specs:
-    spree_featured_product (3.1.5)
-      spree_core (~> 3.1.5)
-
-PATH
-  remote: ../spree_simple_sales
-  specs:
-    spree_simple_sales (3.1.5)
-      spree_core (~> 3.1.5)
 
 GEM
   remote: https://rubygems.org/
