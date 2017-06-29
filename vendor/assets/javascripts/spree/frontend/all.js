@@ -12,3 +12,4 @@
 //= require spree/frontend/spree_auth
 //= require spree/frontend/spree_i18n
 //= require spree/frontend/spree_simple_sales
+//= require spree/frontend/spree_featured_product

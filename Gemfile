@@ -30,6 +30,7 @@ gem 'spree_gateway', '~> 3.1.0.rc1'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 
 gem 'spree_simple_sales', path: '../spree_simple_sales'
+gem 'spree_featured_product', path: '../spree_featured_product'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
